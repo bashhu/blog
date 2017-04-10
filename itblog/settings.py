@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Django settings for itblog project.
 
@@ -26,7 +27,6 @@ SECRET_KEY = '4!#_pr2w=j1o^dklecwq@*+f2x%1^#nsp$w%64jikon^qz-91n'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 

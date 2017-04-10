@@ -1,21 +1,18 @@
 {% extends "base.html" %}
-
+{% load custom_markdown %}
 {% block content %}
-<div class="posts">
-        <section class="post">
-            <header class="post-header">
-                <h2 class="post-title">{{ post.title }}</h2>
-
-                    <p class="post-meta">
+<div class="text-center page-header">
+                <h2  href="">{{ post.title }}</h2>
+                    <p>
                         Time:  <a class="post-author" href="#">{{ post.date_time|date:"Y /m /d"}}</a> <a class="post-category post-category-js" href="{% url "search_tag" tag=post.category %}">{{ post.category }}</a>
                     </p>
-            </header>
-
-                <div class="post-description">
-                    <p>
-			{{ post.content }}
-                    </p>
-                </div>
+</div>
+<div class="contain">
+       <div class="raw">
+           <div class="col">
+             <p>{{ post.content|escape|linebreaks }}</p>
+           </div>
+       </div>
         </section>
 </div><!-- /.blog-post -->
 {% endblock %}

@@ -13,6 +13,60 @@
             padding-bottom: 40px;
             color: #5a5a5a;
         }
+        .post {
+    padding-bottom: 2em;
+}
+.post-title {
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 0.2em;
+}
+.post-avatar {
+    border-radius: 50px;
+    float: right;
+    margin-left: 1em;
+}
+.post-description {
+    font-family: Georgia, "Cambria", serif;
+    color: #444;
+    line-height: 1.8em;
+}
+.post-meta {
+    color: #999;
+    font-size: 90%;
+    margin: 0;
+}
+
+.post-category {
+    margin: 0 0.1em;
+    padding: 0.3em 1em;
+    color: #fff;
+    background: #999;
+    font-size: 80%;
+}
+    .post-category-design {
+        background: #5aba59;
+    }
+    .post-category-pure {
+        background: #4d85d1;
+    }
+    .post-category-yui {
+        background: #8156a7;
+    }
+    .post-category-js {
+        background: #df2d4f;
+    }
+
+.post-images {
+    margin: 1em 0;
+}
+.post-image-meta {
+    margin-top: -3.5em;
+    margin-left: 1em;
+    color: #fff;
+    text-shadow: 0 1px 1px #333;
+}
+
     </style>
 <body>
 <!--代码-->
@@ -32,21 +86,25 @@
   <div class="collapse navbar-collapse ">
     	<ul class="nav navbar-nav">
       		<li class="active"><a href="/">首页</a></li>
-      		<li><a href="#summary-container">linux系统</a></li>
             <li><a href="/archives">归档</a></li>
             <li><li class="nav-item">
-                <a  href="feed/">订阅</a>
+                <a  href="/feed/">订阅</a>
             </li></li>
       		<li><a href="/aboutme">关于我</a></li>
+            <li><a href="/admin">login</a></li>
 	 	</ul>
   </div>
 </div>
+   </div>
+<div class="contain">
+
     {% block content %}
     {% endblock %}
 
 <!--这里是网页底部-->
+    <div class="raw">
     <footer>
-        <p class="pull-right"><a href="#top">回到顶部</a></p>
+        <button class="btn btn-default back-top pull-right" ><a href="#top">回到顶部</a></button>
             <div class="footer">
                 <div class="text-center">
                         <a href="http://nginxs.blog.51cto.com/">About Me</a>
@@ -56,6 +114,8 @@
             </div>
         <p>&copy; 2017 白少华 </p>
     </footer>
+    </div>
+</div>
 <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
