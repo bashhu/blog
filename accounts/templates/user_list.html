@@ -1,0 +1,30 @@
+{% extends "account_base.html" %}
+{% block content %}
+<h3>用户中心</h3>
+     <table class="table table-striped">
+         <!--列名-->
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>用户名</th>
+                <th>姓</th>
+                <th>邮箱</th>
+                <th>权限</th>
+            </tr>
+          </thead>
+         <!--任务列表-->
+          <tbody>
+              {% for user in user_list %}
+            <tr>
+              <th scope="row"><a href="{{user.id}}">{{user.id}}</a></th>
+              <td><a href="{{user.username}}">{{user.username}}</a></td>
+                <td>
+                      <span class="glyphicon glyphicon-fire text-danger"></span> {{user.first_name}}
+                </td>
+                <td><p>{{user.email}}</p></td>
+                <td><p>{{user.user_permissions}}</p></td>
+            </tr>
+              {% endfor %}
+          </tbody>
+    </table>
+{% endblock %}

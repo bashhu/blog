@@ -10,7 +10,8 @@
 <div class="contain">
        <div class="raw">
            <div class="col">
-             <p>{{ post.content|escape|linebreaks }}</p>
+             <p>{{ post.content|safe }}</p>
+               <!--p>{{ post.content|custom_markdown}</p-->
            </div>
        </div>
         </section>

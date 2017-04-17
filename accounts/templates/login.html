@@ -1,0 +1,15 @@
+{% extends "account_base.html" %}
+{% block content %}
+<h3>用户中心</h3>
+    <form role="form" action="/users/login/" method="post">
+      <div class="form-group">
+        <label>邮箱：</label>
+        <input type="text" class="form-control" name="username" placeholder="请输入您的邮箱地址">
+      </div>
+      <div class="form-group">
+        <label>密码</label>
+        <input type="password" class="form-control" name="password" placeholder="请输入您的邮箱密码">
+      </div>
+      <button type="submit" class="btn btn-default">进入邮箱</button>
+    </form>
+{% endblock %}

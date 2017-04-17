@@ -1,0 +1,49 @@
+{% extends "task_base.html" %}
+{% block content %}
+
+    <h2>执行命令
+        <span class="small pull-right">
+            <form method="get">
+            <input class="form-control" type="search" name="search" placeholder="搜索命令" />
+            </form>
+        </span>
+    </h2>
+     <table class="table table-striped">
+         <!--列名-->
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>命令名称</th>
+                <th>环境</th>
+                <th>模块</th>
+                <th>参数</th>
+                <th>原因</th>
+                <th>执行</th>
+                <th>历史</th>
+            </tr>
+          </thead>
+         <!--任务列表-->
+          <tbody>
+              {% for task in task_list %}
+            <tr>
+            <form action="{% url 'Task_exec' id=task.id %}" method="post">
+              <th scope="row"><a href="/task/cmd/{{task.id}}/">{{task.id}}</a></th>
+              <td><a href="/task/cmd/{{task.id}}/">{{task.cmd_name}}</a></td>
+                <td>
+                      <span class="glyphicon glyphicon-fire text-danger"></span> {{task.cmd_cate}}
+                </td>
+                <td><p>{{task.salt_mod}}</p></td>
+                <td>
+                    <input class="form-control"  name="salt_parm" required="true" placeholder="执行参数，必须">
+                </td>
+                 <td>
+                    <textarea class="form-control"  name="salt_reason" required="true" placeholder="执行原因，必须"></textarea>
+                </td>
+                <td><button class="btn btn-danger" type="submit">执行</button></td>
+                <td><a href="/task/log_list/{{task.id}}/">历史</a></td>
+            </form>
+            </tr>
+              {% endfor %}
+          </tbody>
+    </table>
+{% endblock %}

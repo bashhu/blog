@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 from django.shortcuts import render
 from django.http import HttpResponse
 from article.models import Article
@@ -27,6 +30,7 @@ def detail(request, id):
         post = Article.objects.get(id=str(id))
     except Article.DoesNotExist:
         raise Http404
+    post.content = post.content.replace(' ', '&nbsp;').replace('\n', '<br>')
     return render(request, 'post.html', {'post': post})
 
 def archives(request):

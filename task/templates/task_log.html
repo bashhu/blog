@@ -1,0 +1,40 @@
+{% extends "task_base.html" %}
+{% block content %}
+
+    <h2>执行命令
+        <span class="small pull-right">
+            <form method="get">
+            <input class="form-control" type="search" name="search" placeholder="搜索命令" />
+            </form>
+        </span>
+    </h2>
+     <table class="table table-striped">
+         <!--列名-->
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>命令名称</th>
+                <th>环境</th>
+                <th>主机</th>
+                <th>模块</th>
+                <th>参数</th>
+                <th>原因</th>
+            </tr>
+          </thead>
+         <!--任务列表-->
+          <tbody>
+            <tr>
+              <th scope="row"><a href="{% url "Task_log" id=task_log.id %}">{{task_log.id}}</a></th>
+              <td><a href="{% url 'Task_log' id=task_log.id %}">{{task_log.cmd_name}}</a></td>
+                <td>
+                      <span class="glyphicon glyphicon-fire text-danger"></span> {{task_log.cmd_cate}}
+                </td>
+                <td><p>{{task_log.salt_host}}</p></td>
+                <td><p>{{task_log.salt_mod}}</p></td>
+                <td><p>{{task_log.salt_parm}}</p></td>
+                <td><p>{{task_log.salt_reason}}</p></td>
+            </tr>
+            <tr> <td colspan="8"><h3>{{task_log.salt_host}} 执行结果：</h3><pre>{{task_result}}</pre></td></tr>
+          </tbody>
+    </table>
+{% endblock %}
