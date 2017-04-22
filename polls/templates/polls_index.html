@@ -1,0 +1,43 @@
+<!--index.html-->
+{% extends "polls_base.html" %}
+
+{% block content %}
+	<div class="row">
+		<div class="col-md-2 ">
+			<ul class="nav nav-list">
+				<li class="nav-header">
+					分类
+				</li>
+				<li>					<a href="#">生活</a>				</li>
+				<li>					<a href="#">娱乐</a>				</li>
+				<li>					<a href="#">工作</a>				</li>
+			</ul>
+		</div>
+		<div class="co-md-8 col-md-offset-2">
+            <div class="raw">
+                <div class="">
+                    <div class="">
+			<table class="table">
+				<thead>
+					<tr>
+                        <th>							问题						</th>
+						<th>													</th>
+					</tr>
+				</thead>
+				<tbody>
+				{% for question in latest_question_list %}
+					<tr>
+                        <td><a href="{% url 'polls:detail' question.id %}">{{question.question_text}}</a></td>
+						<td>						{{question.choice}}							</td>
+					</tr>
+				{% endfor %}
+				</tbody>
+			</table>
+                        </div>
+                    </div>
+                </div>
+		</div>
+	</div>
+
+
+{% endblock %}
