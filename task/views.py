@@ -6,11 +6,20 @@ from .models import Command,Command_log
 from django.shortcuts import render
 from apilib.salt_api import  Salt_base_api
 import json
+from django.utils import timezone
 from django.contrib.auth.decorators import login_required
+from django.core.urlresolvers import reverse
+from django.views import generic
 
 # Create your views here.
-def  alist(request):
-    return render(request, "task.html", {'task': "task list"})
+
+class IndexView(generic.ListView):
+    template_name = 'task.html'
+    context_object_name = 'latest_task_list'
+
+    def get_queryset(self):
+        """Return the last five published questions."""
+        return Command.objects.filter(pub_date__lte=timezone.now()).order_by('-pub_date')[:10]
 
 @login_required(login_url='/users/')
 def Task(request):

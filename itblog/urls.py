@@ -18,10 +18,11 @@ from django.conf.urls import include, url
 from django.contrib import admin
 from article import views
 from article.views import RSSFeed
-from task.views import  alist,Task_exec,Task_list, Task_log, Task_log_list
+#from task.views import  alist,Task_exec,Task_list, Task_log, Task_log_list
 from accounts import views as user1
 
 urlpatterns = [
+    url(r'^polls/', include('polls.urls', namespace='polls')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^accounts/', include('users.urls')),
     url(r'^$', views.home, name = 'home'),
@@ -32,11 +33,6 @@ urlpatterns = [
     url(r'^search/$', views.blog_search, name = 'search'),
     url(r'^search/$', views.blog_search, name = ''),
     url(r'^feed/$', RSSFeed(), name = "RSS"),
-    url(r'^task/$', alist, name='alist'),
-    url(r'^task_list/$', Task_list, name='Task_list'),
-    url(r'^task/exec/(?P<id>\d+)/$', Task_exec, name='Task_exec'),
-    url(r'^task/log_list/(?P<id>\d+)/$', Task_log_list, name='Task_log_list'),
-    url(r'^task/log/(?P<id>\d+)/$', Task_log, name='Task_log'),
     url(r'^users/login/$', user1.user_login, name='login'),
     url(r'^users/logout/$', user1.user_logout, name='logout'),
     url(r'^users/list/$', user1.user_list, name='user_list'),

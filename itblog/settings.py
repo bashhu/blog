@@ -40,7 +40,7 @@ INSTALLED_APPS = (
     'article',
     'task',
     'accounts',
-#    'users',
+    'polls',
 )
 #AUTH_USER_MODEL = 'users.User'
 MIDDLEWARE_CLASSES = (
@@ -130,7 +130,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_USE_TLS = False
 EMAIL_HOST = 'smtp.exmail.qq.com'
 EMAIL_PORT = 25
-EMAIL_HOST_USER = 'shaohua.bai@dianjoy.com'
-EMAIL_HOST_PASSWORD = '13803341957.mail'
-DEFAULT_FROM_EMAIL = 'shaohua.bai@dianjoy.com'
+EMAIL_HOST_USER = 'xxxx@nginxs.com'
+EMAIL_HOST_PASSWORD = 'mailpasswd'
+DEFAULT_FROM_EMAIL = 'xxxx@nginxs.com'
 #  ---------------------------------------------------------

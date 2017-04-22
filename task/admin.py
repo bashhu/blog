@@ -1,5 +1,18 @@
+#coding:utf-8
 from django.contrib import admin
 from task.models import Command,Command_log
 # Register your models here.
-admin.site.register(Command)
-admin.site.register(Command_log)
+class CommandAdmin(admin.ModelAdmin):
+    list_display = ('cmd_name', 'cmd_cate','salt_mod')
+    actions = ['make_pro']
+
+    def make_pro(self, request, queryset):
+        queryset.update(cmd_cate='生产环境')
+
+    make_pro.short_description = "Mark selected stories as 生产环境"
+
+class Command_logAdmin(admin.ModelAdmin):
+    list_display = ('cmd_name', 'cmd_cate','salt_mod','salt_reason','salt_res')
+
+admin.site.register(Command,CommandAdmin)
+admin.site.register(Command_log,Command_logAdmin)
