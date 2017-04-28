@@ -10,3 +10,4 @@ class CommandForm(forms.Form) :
     '''记录执行记录和结果'''
     salt_parm = forms.CharField()
     salt_reason = forms.CharField()#执行原因
+

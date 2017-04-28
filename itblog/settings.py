@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     'task',
     'accounts',
     'polls',
+    'asset',
 )
 #AUTH_USER_MODEL = 'users.User'
 MIDDLEWARE_CLASSES = (

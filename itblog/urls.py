@@ -19,22 +19,13 @@ from django.contrib import admin
 from article import views
 from article.views import RSSFeed
 #from task.views import  alist,Task_exec,Task_list, Task_log, Task_log_list
-from accounts import views as user1
+from article import views
 
 urlpatterns = [
     url(r'^polls/', include('polls.urls', namespace='polls')),
+    url(r'^task/', include('task.urls', namespace='task')),
+    url(r'^users/', include('accounts.urls', namespace='user')),
+    url(r'^article/',include('article.urls', namespace='article')),
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^accounts/', include('users.urls')),
-    url(r'^$', views.home, name = 'home'),
-    url(r'^(?P<id>\d+)/$', views.detail, name = 'detail'),
-    url(r'^archives/$', views.archives, name = 'archives'),
-    url(r'^aboutme/$', views.about_me, name = 'about_me'),
-    url(r'^tag(?P<tag>\w+)/$', views.search_tag, name = 'search_tag'),
-    url(r'^search/$', views.blog_search, name = 'search'),
-    url(r'^search/$', views.blog_search, name = ''),
-    url(r'^feed/$', RSSFeed(), name = "RSS"),
-    url(r'^users/login/$', user1.user_login, name='login'),
-    url(r'^users/logout/$', user1.user_logout, name='logout'),
-    url(r'^users/list/$', user1.user_list, name='user_list'),
-    url(r'^users/$', user1.accounts, name='accounts'),
+    url(r'^$', views.Indexview.as_view(), name = 'home'),
 ]

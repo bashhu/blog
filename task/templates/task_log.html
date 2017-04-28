@@ -24,8 +24,8 @@
          <!--任务列表-->
           <tbody>
             <tr>
-              <th scope="row"><a href="{% url "Task_log" id=task_log.id %}">{{task_log.id}}</a></th>
-              <td><a href="{% url 'Task_log' id=task_log.id %}">{{task_log.cmd_name}}</a></td>
+              <th scope="row"><a href="{% url "task:Task_log" id=task_log.id %}">{{task_log.id}}</a></th>
+              <td><a href="{% url 'task:Task_log' id=task_log.id %}">{{task_log.cmd_name}}</a></td>
                 <td>
                       <span class="glyphicon glyphicon-fire text-danger"></span> {{task_log.cmd_cate}}
                 </td>

@@ -26,9 +26,9 @@
           <tbody>
               {% for task in task_list %}
             <tr>
-            <form action="{% url 'Task_exec' id=task.id %}" method="post">
-              <th scope="row"><a href="/task/cmd/{{task.id}}/">{{task.id}}</a></th>
-              <td><a href="/task/cmd/{{task.id}}/">{{task.cmd_name}}</a></td>
+            <form action="{% url 'task:Task_exec' id=task.id %}" method="post">
+              <th scope="row"><a href="{% url 'task:Task_log_list' id=task.id %}">{{task.id}}</a></th>
+              <td><a href="{% url 'task:Task_log_list' id=task.id %}">{{task.cmd_name}}</a></td>
                 <td>
                       <span class="glyphicon glyphicon-fire text-danger"></span> {{task.cmd_cate}}
                 </td>
@@ -40,7 +40,7 @@
                     <textarea class="form-control"  name="salt_reason" required="true" placeholder="执行原因，必须"></textarea>
                 </td>
                 <td><button class="btn btn-danger" type="submit">执行</button></td>
-                <td><a href="/task/log_list/{{task.id}}/">历史</a></td>
+                <td><a href="{% url 'task:Task_log_list' id=task.id %}">历史</a></td>
             </form>
             </tr>
               {% endfor %}

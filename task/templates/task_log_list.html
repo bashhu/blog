@@ -25,16 +25,16 @@
           <tbody>
               {% for task_log in task_log_list %}
             <tr>
-            <form action="{% url 'Task_log_list' id=task_log.id %}" method="post">
-              <th scope="row"><a href="{% url 'Task_log_list' id=task_log.id %}">{{task.id}}</a></th>
-              <td><a href="{% url 'Task_log' id=task_log.id %}">{{task_log.cmd_name}}</a></td>
+            <form action="{% url 'task:Task_log_list' id=task_log.id %}" method="post">
+              <th scope="row"><a href="{% url 'task:Task_log_list' id=task_log.id %}">{{task.id}}</a></th>
+              <td><a href="{% url 'task:Task_log' id=task_log.id %}">{{task_log.cmd_name}}</a></td>
                 <td>
                       <span class="glyphicon glyphicon-fire text-danger"></span> {{task_log.cmd_cate}}
                 </td>
                 <td><p>{{task_log.salt_mod}}</p></td>
                 <td><p>{{task_log.salt_parm}}</p></td>
                 <td><p>{{task_log.salt_reason}}</p></td>
-                <td><a href="{% url 'Task_log' id=task_log.id %}">查看</a></td>
+                <td><a href="{% url 'task:Task_log' id=task_log.id %}">查看</a></td>
             </form>
             </tr>
               {% endfor %}

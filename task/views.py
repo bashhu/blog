@@ -4,22 +4,29 @@ from django.http import HttpResponse,Http404
 from .form import TaskForm,CommandForm
 from .models import Command,Command_log
 from django.shortcuts import render
-from apilib.salt_api import  Salt_base_api
+from utils.salt_api import  Salt_base_api
 import json
-from django.utils import timezone
 from django.contrib.auth.decorators import login_required
-from django.core.urlresolvers import reverse
 from django.views import generic
-
 # Create your views here.
+#
+#@login_required(login_url='/users/')
+class Task_listView(generic.ListView):
+    ''' looking one blog page 
+        try:
+        task_list = Command.objects.all()
+    except Command.DoesNotExist:
+        raise Http404
+    print task_list
+    return render(request, 'task_list.html', {'task_list': task_list})'''
+    model = Command
+    template_name = 'task_list.html'
+    context_object_name = 'task_list'
 
-class IndexView(generic.ListView):
-    template_name = 'task.html'
-    context_object_name = 'latest_task_list'
 
-    def get_queryset(self):
-        """Return the last five published questions."""
-        return Command.objects.filter(pub_date__lte=timezone.now()).order_by('-pub_date')[:10]
+def Task_cmd(request):
+    return render(request, "task_cmd.html", {})
+
 
 @login_required(login_url='/users/')
 def Task(request):
@@ -39,14 +46,8 @@ def Task(request):
         form = TaskForm()
     return render(request, 'task_result.html', {'form': form})
 
-@login_required(login_url='/users/')
-def Task_list(request):
-    ''' looking one blog page '''
-    try:
-        task_list = Command.objects.all()
-    except Command.DoesNotExist:
-        raise Http404
-    return render(request, 'task_list.html', {'task_list': task_list})
+
+
 
 @login_required(login_url='/users/')
 def Task_log_list(request, id):
@@ -66,7 +67,6 @@ def Task_log(request, id):
     task_result = json.loads(task_log.salt_res)[task_log.salt_host]
     return render(request, 'task_log.html', {'task_log': task_log,'task_result': task_result})
 
-@login_required(login_url='/users/')
 def Task_save_log(task_id, salt_parm, reason, res):
     cmd = Command.objects.get(id=task_id)
     cmd_name = cmd.cmd_name
@@ -83,6 +83,7 @@ def Task_exec(request,id):
     cmd = Command.objects.get(id=id)
     if request.method == 'POST':  # 当提交表单时
         form = CommandForm(request.POST)  # form 包含提交的数据
+        print form
         if form.is_valid():  # 如果提交的数据合法
             host = cmd.salt_host
             salt_mod = cmd.salt_mod
@@ -91,8 +92,32 @@ def Task_exec(request,id):
             s = Salt_base_api()
             parm='{ "client":"local","tgt":"%s","fun":"%s","arg":"%s"}'% (host, salt_mod, salt_parm)
             res=s.salt_req(parm,'')['return'][0]
+            print id,salt_parm,reason
+            print res
             Task_save_log(task_id=id, salt_parm=salt_parm, reason=reason, res=json.dumps(res))
             return render(request,"task_result.html",{ 'result': res[host]})
+    else:  # 当正常访问时
+        return render(request, "task_result.html", {'result': 'parm is err'})
+    return render(request, 'task_result.html', {'form': form})
+
+
+@login_required(login_url='/users/')
+def Cmd_online(request):
+    if request.method == 'POST':  # 当提交表单时
+        form = TaskForm(request.POST)  # form 包含提交的数据
+        print request
+        if form.is_valid():  # 如果提交的数据合法
+            host = form.cleaned_data['host']
+            salt_mod = form.cleaned_data['salt_mod']
+            salt_parm = form.cleaned_data['salt_parm']
+            s = Salt_base_api()
+            parm='{ "client":"local","tgt":"%s","fun":"%s","arg":"%s"}'% (host, salt_mod, salt_parm)
+            res=s.salt_req(parm,'')['return'][0]
+            reason = 'cmd run with admin'
+            id=1
+            Task_save_log(task_id=id, salt_parm=salt_parm, reason=reason, res=json.dumps(res))
+            return HttpResponse(json.dumps(res))
+            #return render(request,"task_result.html",{ 'result': res[host]})
     else:  # 当正常访问时
         return render(request, "task_result.html", {'result': 'parm is err'})
     return render(request, 'task_result.html', {'form': form})

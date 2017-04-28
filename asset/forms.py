@@ -5,16 +5,15 @@ __created__ = '5/26/16'
 __author__ = 'deling.ma'
 """
 from django import forms
-from admin.plugins.multiselect import SelectMultipleTransfer
+#from admin.plugins.multiselect import SelectMultipleTransfer
 
 from asset.models import ServiceGroup, Machine
 
 
 class MachineForm(forms.ModelForm):
     s_group = forms.ModelMultipleChoiceField(
-        queryset=ServiceGroup.objects.all(),
-        widget=SelectMultipleTransfer('s_group',
-                                      is_stacked=False),
+    queryset=ServiceGroup.objects.all(),
+        #idget=SelectMultipleTransfer('s_group',is_stacked=False),
         required=False, label="业务服务组")
 
     def __init__(self, *args, **kwargs):

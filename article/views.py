@@ -2,13 +2,14 @@
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
-from django.shortcuts import render
-from django.http import HttpResponse
+from django.shortcuts import render,redirect
+from django.http import HttpResponse,HttpResponseRedirect
 from article.models import Article
 from datetime import datetime
 from django.http import Http404
 from django.contrib.syndication.views import Feed
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.views import generic
 # Create your views here.
 
 def home(request):
@@ -22,16 +23,41 @@ def home(request):
         post_list = paginator.page(1)
     except EmptyPage :
         post_list = paginator.paginator(paginator.num_pages)
-    return render(request, 'index.html', {'post_list': post_list})
+    return render(request, 'article/index.html', {'post_list': post_list})
 
-def detail(request, id):
-    ''' looking one blog page '''
-    try:
+class Indexview(generic.ListView):
+    model = Article
+    template_name = 'article/index.html'
+    context_object_name = 'post_list'
+
+
+
+class DetailView(generic.DetailView):
+    ''' looking one blog page
+         try:
         post = Article.objects.get(id=str(id))
     except Article.DoesNotExist:
         raise Http404
-    post.content = post.content.replace(' ', '&nbsp;').replace('\n', '<br>')
-    return render(request, 'post.html', {'post': post})
+    #post.content = post.content.replace(' ', '&nbsp;').replace('\n', '<br>')
+    return render(request, 'article/post.html', {'post': post})'''
+    model = Article
+    template_name = 'article/post.html'
+    context_object_name = 'post'
+
+class Search_tagView(generic.ListView):
+    model = Article
+    template_name = 'article/tag.html'
+    context_object_name = 'post_list'
+    def search_tag(request, tag):
+        return Article.objects.filter(category=tag)
+def search_tag(request, tag):
+    ''' search blog us tag '''
+    try:
+        post_list = Article.objects.filter(category__iexact = tag)
+    except Article.DoesNotExist:
+        raise Http404
+    return render(request, 'article/tag.html', {'post_list': post_list})
+
 
 def archives(request):
     ''' watching all blog '''
@@ -39,31 +65,25 @@ def archives(request):
         post_list = Article.objects.all()
     except Article.DoesNotExist:
         raise Http404
-    return render(request, 'archives.html', {'post_list': post_list, 'error':False})
+    return render(request, 'article/archives.html', {'post_list': post_list, 'error':False})
 
 def about_me(request):
-    return render(request, 'aboutme.html')
+    return render(request, 'article/aboutme.html')
 
-def search_tag(request, tag):
-    ''' search blog us tag '''
-    try:
-        post_list = Article.objects.filter(category__iexact = tag)
-    except Article.DoesNotExist:
-        raise Http404
-    return render(request, 'tag.html', {'post_list': post_list})
+
 
 def blog_search(request):
     '''blog title search with word'''
     if 's' in request.GET:
         s = request.GET['s']
         if not s:
-            return render(request, 'home.html')
+            return render(request, 'article/home.html')
         else:
             post_list = Article.objects.filter(title__icontains = s)
             if len(post_list) == 0:
-                return render(request, 'archives.html', {'post_list': post_list, 'error': True})
+                return render(request, 'article/archives.html', {'post_list': post_list, 'error': True})
             else:
-                return render(request, 'archives.html', {'post_list': post_list, 'error': False})
+                return render(request, 'article/archives.html', {'post_list': post_list, 'error': False})
     return redirect('/')
 
 class RSSFeed(Feed):

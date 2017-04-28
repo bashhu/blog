@@ -141,3 +141,45 @@ INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
 INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ps"}
 INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
 INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ps"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ps "}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ps"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ps"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ps"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ps"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ps"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ps"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ls"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ls"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ls"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ls"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ls"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ls"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ls"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ls"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ls"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ls"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ls"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ls"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ls"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ls"}
