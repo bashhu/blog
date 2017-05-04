@@ -89,11 +89,10 @@
          <div class="collapse navbar-collapse ">
     	<ul class="nav navbar-nav">
       		<li class="active"><a href="/">首页</a></li>
-            <li><a href="/polls/">投票</a></li>
-            <li><a href="/archives/">归档</a></li>
-            <li><a href="/aboutme/">关于我</a></li>
+            <li><a href="{% url 'article:index' %}">投票</a></li>
+            <li><a href="{% url 'polls:index' %}">投票</a></li>
             {% if request.user.is_authenticated %}
-            <li><a href="/task/">任务列表</a></li>
+            <li><a href="{% url 'task:index' %}">任务列表</a></li>
             <li><a href="/users/list/">用户列表</a></li>
             <li><a href="/admin/">管理后台</a></li>
 			<li ><a>欢迎：{{ request.user.username}}</a></li>
@@ -115,10 +114,10 @@
      				<a href="/task/">全部任务</a>
      			</li>
      			<li>
-     				<a href="#">部署任务</a>
+     				<a href="{% url 'task:Task_list' %}">部署任务</a>
      			</li>
                 <li>
-     				<a href="#">命令任务</a>
+     				<a href="{% url 'task:Task_cmd' %}">命令任务</a>
      			</li>
                 <li>
      				<a href="#">定时任务</a>
@@ -145,12 +144,6 @@
 
 <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script>
-  $(function(){
-    $(".btn").click(function(){
-      $("#mymodal").modal("toggle");
-    });
-  });
-</script>
+
 </body>
 </html>

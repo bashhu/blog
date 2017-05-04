@@ -19,6 +19,7 @@
                 <th>模块</th>
                 <th>参数</th>
                 <th>原因</th>
+                <th>时间</th>
             </tr>
           </thead>
          <!--任务列表-->
@@ -33,6 +34,7 @@
                 <td><p>{{task_log.salt_mod}}</p></td>
                 <td><p>{{task_log.salt_parm}}</p></td>
                 <td><p>{{task_log.salt_reason}}</p></td>
+                <td><p>{{task_log.etime|date:"Y-m-d H:m"}}</p></td>
             </tr>
             <tr> <td colspan="8"><h3>{{task_log.salt_host}} 执行结果：</h3><pre>{{task_result}}</pre></td></tr>
           </tbody>

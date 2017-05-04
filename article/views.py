@@ -11,9 +11,9 @@ from django.contrib.syndication.views import Feed
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views import generic
 # Create your views here.
-
+''' index.html 
 def home(request):
-    ''' index.html '''
+    
     posts = Article.objects.all()
     paginator = Paginator(posts, 2)
     page = request.GET.get('page')
@@ -24,12 +24,16 @@ def home(request):
     except EmptyPage :
         post_list = paginator.paginator(paginator.num_pages)
     return render(request, 'article/index.html', {'post_list': post_list})
+'''
 
 class Indexview(generic.ListView):
     model = Article
     template_name = 'article/index.html'
     context_object_name = 'post_list'
-
+    def home(self,request):
+        posts = Article.objects.all()
+        paginator = Paginator(posts, 2)
+        page = request.GET.get('page')
 
 
 class DetailView(generic.DetailView):
@@ -45,27 +49,24 @@ class DetailView(generic.DetailView):
     context_object_name = 'post'
 
 class Search_tagView(generic.ListView):
+    ''' search blog us tag
+         try:
+        post_list = Article.objects.filter(category__iexact = tag)
+    except Article.DoesNotExist:
+        raise Http404
+    return render(request, 'article/tag.html', {'post_list': post_list})'''
     model = Article
     template_name = 'article/tag.html'
     context_object_name = 'post_list'
     def search_tag(request, tag):
         return Article.objects.filter(category=tag)
-def search_tag(request, tag):
-    ''' search blog us tag '''
-    try:
-        post_list = Article.objects.filter(category__iexact = tag)
-    except Article.DoesNotExist:
-        raise Http404
-    return render(request, 'article/tag.html', {'post_list': post_list})
 
-
-def archives(request):
+class ArchView(generic.ListView):
     ''' watching all blog '''
-    try:
-        post_list = Article.objects.all()
-    except Article.DoesNotExist:
-        raise Http404
-    return render(request, 'article/archives.html', {'post_list': post_list, 'error':False})
+    model = Article
+    template_name = 'article/archives.html'
+    context_object_name = 'post_list'
+
 
 def about_me(request):
     return render(request, 'article/aboutme.html')

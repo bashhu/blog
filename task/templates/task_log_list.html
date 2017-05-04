@@ -18,6 +18,7 @@
                 <th>模块</th>
                 <th>参数</th>
                 <th>原因</th>
+                <th>时间</th>
                 <th>查看</th>
             </tr>
           </thead>
@@ -34,6 +35,7 @@
                 <td><p>{{task_log.salt_mod}}</p></td>
                 <td><p>{{task_log.salt_parm}}</p></td>
                 <td><p>{{task_log.salt_reason}}</p></td>
+                 <td><p>{{task_log.etime|date:"Y-m-d H:m"}}</p></td>
                 <td><a href="{% url 'task:Task_log' id=task_log.id %}">查看</a></td>
             </form>
             </tr>

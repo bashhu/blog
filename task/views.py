@@ -10,6 +10,10 @@ from django.contrib.auth.decorators import login_required
 from django.views import generic
 # Create your views here.
 #
+
+def index(request):
+    return render(request,'task_index.html',{})
+
 #@login_required(login_url='/users/')
 class Task_listView(generic.ListView):
     ''' looking one blog page 
@@ -23,7 +27,7 @@ class Task_listView(generic.ListView):
     template_name = 'task_list.html'
     context_object_name = 'task_list'
 
-
+@login_required(login_url='/users/')
 def Task_cmd(request):
     return render(request, "task_cmd.html", {})
 
@@ -58,6 +62,7 @@ def Task_log_list(request, id):
         raise Http404
     return render(request, 'task_log_list.html', {'task_log_list': task_log_list})
 
+@login_required(login_url='/users/')
 def Task_log(request, id):
     ''' looking one blog page '''
     try:
@@ -67,6 +72,7 @@ def Task_log(request, id):
     task_result = json.loads(task_log.salt_res)[task_log.salt_host]
     return render(request, 'task_log.html', {'task_log': task_log,'task_result': task_result})
 
+#@login_required(login_url='/users/')
 def Task_save_log(task_id, salt_parm, reason, res):
     cmd = Command.objects.get(id=task_id)
     cmd_name = cmd.cmd_name
@@ -115,9 +121,10 @@ def Cmd_online(request):
             res=s.salt_req(parm,'')['return'][0]
             reason = 'cmd run with admin'
             id=1
+            print id,salt_parm,reason,res
             Task_save_log(task_id=id, salt_parm=salt_parm, reason=reason, res=json.dumps(res))
-            return HttpResponse(json.dumps(res))
-            #return render(request,"task_result.html",{ 'result': res[host]})
+            #return HttpResponse(json.dumps(res))
+            return render(request,"task_result.html",{ 'result': res[host]})
     else:  # 当正常访问时
         return render(request, "task_result.html", {'result': 'parm is err'})
     return render(request, 'task_result.html', {'form': form})
