@@ -80,11 +80,7 @@ class Zbx_base_api(object):
             logging.info(msg)
 
 class Zbx_api(object):
-    def zbx_create_host(self,hostname,inter_ip,group_id,temlpate_id):
-        self.hostname = hostname
-        self.inter_ip = inter_ip
-        self.group_id = group_id
-        self.temlpate_id = temlpate_id
+    def create_host(self,hostname,inter_ip,group_id,temlpate_id_list,proxy_hostid=0):
         '''创建主机
             hostname :主机名
             inter_ip :主机IP
@@ -92,7 +88,21 @@ class Zbx_api(object):
             template_id : 监控模版id
             create_host('salt-node1','192.168.198.116','4','10001')
         '''
+        self.hostname = hostname
+        self.inter_ip = inter_ip
+        self.group_id = group_id
+        self.temlpate_id_list = temlpate_id_list
+        self.temlpate_id=[]
+        temlpate,temlpates = '',[]
+        for temlpate_id in temlpate_id_list:
+            temlpate = '{"templateid": "%d"}'% temlpate_id
+            if len(temlpates)==0:
+                temlpates = temlpate
+            else:
+                temlpates = '%s,%s' % (temlpates, temlpate)
+        print temlpates
         zbx_action = 'host.create'
+
         zbx_params = '''{
             "host": "%s",
             "interfaces": [
@@ -110,22 +120,18 @@ class Zbx_api(object):
                     "groupid": "%s"
                 }
             ],
-            "templates": [
-                {
-                    "templateid": "%s"
-                }
-            ],
+            "templates": [%s],
             "inventory_mode": 0,
             "inventory": {
                 "macaddress_a": "01234",
                 "macaddress_b": "56768"
-            }
-        }''' % (hostname,inter_ip,group_id,temlpate_id)
-        print   zbx_params
+            },
+            "proxy_hostid": %s
+            }''' % (hostname,inter_ip,group_id,temlpates,proxy_hostid)
         r=Zbx_base_api(zbx_action,zbx_params)
         return r.zbx_req()
 
-    def zbx_update_host(self,host_id,temlpate_id):
+    def update_host(self,host_id,temlpate_id):
         '''
         更新模版为这里配置的参数
         host_id :主机id
@@ -147,12 +153,12 @@ class Zbx_api(object):
         r=Zbx_base_api(zbx_action,zbx_params)
         return r.zbx_req()
 
-    def zbx_get_host(self, host_name):
+    def get_host(self, host_name):
         ''' 查看主机组信息
          参数：host_name
          s=Zbx_api()
         gstr="Zabbix server"
-        print s.zbx_get_host(gstr)
+        print s.get_host(gstr)
         '''
         zbx_action = 'host.get'
         self.host_name = host_name
@@ -167,7 +173,7 @@ class Zbx_api(object):
         r = Zbx_base_api(zbx_action, zbx_params)
         return r.zbx_req()
 
-    def zbx_create_group(self,group_name):
+    def create_group(self,group_name):
         ''' 创建主机组 '''
         zbx_action = 'hostgroup.create'
         zbx_params = '''{
@@ -178,7 +184,7 @@ class Zbx_api(object):
         r=Zbx_base_api(zbx_action,zbx_params)
         return r.zbx_req()
 
-    def zbx_exists_group(self,group_name):
+    def exists_group(self,group_name):
         ''' 查看主机组是否存在 '''
         self.group_name = group_name
         zbx_action = 'hostgroup.exists'
@@ -190,8 +196,12 @@ class Zbx_api(object):
         r=Zbx_base_api(zbx_action,zbx_params)
         return r.zbx_req()
 
-    def zbx_get_group(self, group_name):
-        ''' 查看主机组信息 '''
+    def get_group(self, group_name):
+        ''' 查看主机组信息 
+        s=Zbx_api()
+        res=s.get_group('aliyun-dianjoy-video')
+        print res['groupid']
+        '''
         zbx_action = 'hostgroup.get'
         self.group_name = group_name
         zbx_params = '''{
@@ -199,14 +209,14 @@ class Zbx_api(object):
         "filter": {
             "name": [
                 "%s"
-            ]
-        }
-    }''' % (self.group_name)
-        print   zbx_params
+                ]
+            }
+        }''' % (self.group_name)
         r = Zbx_base_api(zbx_action, zbx_params)
-        return r.zbx_req()
 
-    def zbx_create_screen(self,screen_name,screen_high,screen_width):
+        return json.loads(r.zbx_req())['result'][0]
+
+    def create_screen(self,screen_name,screen_high,screen_width):
         '''创建screen
         name : SCREEN的名字
         hsize： screen的行数
@@ -242,7 +252,7 @@ class Zbx_api(object):
         r=Zbx_base_api(zbx_action,zbx_params)
         return r.zbx_req()
 
-    def zbx_update_screen(self, screen_id,h_size,v_size,item_ids):
+    def update_screen(self, screen_id,h_size,v_size,item_ids):
         '''创建screen
         name : SCREEN的名字
         screen_id: screen的id
@@ -312,3 +322,35 @@ class Zbx_api(object):
     }''' % (self.screen_id,self.h_size,self.v_size,item_id_list)
         r = Zbx_base_api(zbx_action, zbx_params)
         return r.zbx_req()
+
+    def get_tpl(self,template_name):
+        ''' 查看模版信息 
+        s=Zbx_api()
+        res=s.get_tpl('aliyun-video-api')
+        print res['templateid']
+
+        '''
+        zbx_action = 'template.get'
+        self.template_name = template_name
+        zbx_params = '''{
+        "output": "extend",
+        "filter": {
+            "host": [
+                "%s"
+                ]
+            }
+        }''' % (self.template_name)
+        r = Zbx_base_api(zbx_action, zbx_params)
+
+        return json.loads(r.zbx_req())['result'][0]
+
+
+
+zbx=Zbx_api()
+group_id = zbx.get_group("aliyun-dianjoy-video")['groupid']
+template_id = zbx.get_tpl('aliyun-video-api')['templateid']
+inter_ip = '192.168.199.217'
+hostname = 'ntest7.dianjoy.com'
+proxy_hostid=10119
+template_id_list=[10117,10001]
+print zbx.create_host(hostname,inter_ip,group_id,template_id_list,proxy_hostid)

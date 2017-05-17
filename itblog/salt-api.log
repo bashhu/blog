@@ -205,3 +205,13 @@ INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
 INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"df"}
 INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
 INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ps -ef"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"w"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"w"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"w"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"w"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"grains.item","arg":"hostname"}

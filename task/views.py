@@ -8,13 +8,15 @@ from utils.salt_api import  Salt_base_api
 import json
 from django.contrib.auth.decorators import login_required
 from django.views import generic
+from django.contrib.auth.decorators import permission_required
+
 # Create your views here.
 #
 
 def index(request):
     return render(request,'task_index.html',{})
 
-#@login_required(login_url='/users/')
+#@permission_required('task.add_command',login_url='/users/')
 class Task_listView(generic.ListView):
     ''' looking one blog page 
         try:
@@ -72,7 +74,7 @@ def Task_log(request, id):
     task_result = json.loads(task_log.salt_res)[task_log.salt_host]
     return render(request, 'task_log.html', {'task_log': task_log,'task_result': task_result})
 
-#@login_required(login_url='/users/')
+
 def Task_save_log(task_id, salt_parm, reason, res):
     cmd = Command.objects.get(id=task_id)
     cmd_name = cmd.cmd_name
@@ -84,7 +86,7 @@ def Task_save_log(task_id, salt_parm, reason, res):
     cmd_log.save()
 
 
-@login_required(login_url='/users/')
+@permission_required('task.add_command',login_url='/users/')
 def Task_exec(request,id):
     cmd = Command.objects.get(id=id)
     if request.method == 'POST':  # 当提交表单时
@@ -98,8 +100,6 @@ def Task_exec(request,id):
             s = Salt_base_api()
             parm='{ "client":"local","tgt":"%s","fun":"%s","arg":"%s"}'% (host, salt_mod, salt_parm)
             res=s.salt_req(parm,'')['return'][0]
-            print id,salt_parm,reason
-            print res
             Task_save_log(task_id=id, salt_parm=salt_parm, reason=reason, res=json.dumps(res))
             return render(request,"task_result.html",{ 'result': res[host]})
     else:  # 当正常访问时
@@ -107,7 +107,7 @@ def Task_exec(request,id):
     return render(request, 'task_result.html', {'form': form})
 
 
-@login_required(login_url='/users/')
+@permission_required('task.add_command',login_url='/users/')
 def Cmd_online(request):
     if request.method == 'POST':  # 当提交表单时
         form = TaskForm(request.POST)  # form 包含提交的数据

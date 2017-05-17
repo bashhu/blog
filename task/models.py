@@ -1,5 +1,6 @@
 #coding:utf-8
 from django.db import models
+from django.contrib.auth.models import Permission, User
 
 # Create your models here.
 # Create your models here.
@@ -12,14 +13,20 @@ class Command(models.Model) :
     salt_parm_c = models.BooleanField(default=True)
     salt_parm = models.CharField(max_length = 50)
 
+    class Meta:
+        permissions = (
+            ("exec_task", "Can exec available tasks"),
+            ("change_task", "Can change the status of tasks"),
+            ("add_task", "add a task"),
+        )
     ''' get url an reverse to you want'''
-
     #python2使用__unicode__, python3使用__str__
     def __str__(self) :
         return self.cmd_name
 
     class Meta:  #按时间下降排序
         ordering = ['-ctime']
+
 
 class Command_log(models.Model) :
     '''记录执行记录和结果'''

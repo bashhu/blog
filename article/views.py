@@ -58,6 +58,7 @@ class Search_tagView(generic.ListView):
     model = Article
     template_name = 'article/tag.html'
     context_object_name = 'post_list'
+
     def search_tag(request, tag):
         return Article.objects.filter(category=tag)
 
