@@ -48,19 +48,17 @@ class DetailView(generic.DetailView):
     template_name = 'article/post.html'
     context_object_name = 'post'
 
-class Search_tagView(generic.ListView):
-    ''' search blog us tag
-         try:
+def Search_tag(request, tag):
+    ''' search blog us tag'''
+    try:
         post_list = Article.objects.filter(category__iexact = tag)
     except Article.DoesNotExist:
         raise Http404
-    return render(request, 'article/tag.html', {'post_list': post_list})'''
-    model = Article
-    template_name = 'article/tag.html'
-    context_object_name = 'post_list'
+    return render(request, 'article/tag.html', {'post_list': post_list})
 
-    def search_tag(request, tag):
-        return Article.objects.filter(category=tag)
+
+
+
 
 class ArchView(generic.ListView):
     ''' watching all blog '''

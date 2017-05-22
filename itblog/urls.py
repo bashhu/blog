@@ -26,6 +26,7 @@ urlpatterns = [
     url(r'^task/', include('task.urls', namespace='task')),
     url(r'^users/', include('accounts.urls', namespace='user')),
     url(r'^article/',include('article.urls', namespace='article')),
+    url(r'^esweb/',include('esweb.urls', namespace='esweb')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', views.Indexview.as_view(), name = 'home'),
 ]

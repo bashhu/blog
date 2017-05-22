@@ -4,15 +4,15 @@ from django.core.urlresolvers import reverse
 
 
 # Create your models here.
-class Category(models.Model):
-    catename = models.CharField(max_length = 100) #文章分类
-    utime =  models.DateTimeField(auto_now_add = True)
-    def __str__(self) :
-        return self.catename
+#class Category(models.Model):
+#    catename = models.CharField(max_length = 100) #文章分类
+#    utime =  models.DateTimeField(auto_now_add = True)
+#    def __str__(self) :
+#        return self.catename
 
 class Article(models.Model) :
     title = models.CharField(max_length = 100)  #博客题目
-    category = models.ManyToManyField(Category)  #博客标签
+    category = models.CharField(max_length = 50)  #博客标签
     date_time = models.DateTimeField(auto_now_add = True)  #博客日期
     content = models.TextField(blank = True, null = True)  #博客文章正文
 

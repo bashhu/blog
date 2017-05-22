@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>nginxs.net</title>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+</head>
+    <style>
+
+        body {
+            padding-top: 50px;
+            padding-bottom: 40px;
+            color: #5a5a5a;
+        }
+        .post {
+    padding-bottom: 2em;
+}
+.post-title {
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 0.2em;
+}
+.post-avatar {
+    border-radius: 50px;
+    float: right;
+    margin-left: 1em;
+}
+.post-description {
+    font-family: Georgia, "Cambria", serif;
+    color: #444;
+    line-height: 1.8em;
+}
+.post-meta {
+    color: #999;
+    font-size: 90%;
+    margin: 0;
+}
+
+.post-category {
+    margin: 0 0.1em;
+    padding: 0.3em 1em;
+    color: #fff;
+    background: #999;
+    font-size: 80%;
+}
+    .post-category-design {
+        background: #5aba59;
+    }
+    .post-category-pure {
+        background: #4d85d1;
+    }
+    .post-category-yui {
+        background: #8156a7;
+    }
+    .post-category-js {
+        background: #df2d4f;
+    }
+
+.post-images {
+    margin: 1em 0;
+}
+.post-image-meta {
+    margin-top: -3.5em;
+    margin-left: 1em;
+    color: #fff;
+    text-shadow: 0 1px 1px #333;
+}
+.form-control {
+    width:70%;
+}
+
+    </style>
+<body>
+<!--代码-->
+<!--导航栏-->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+         <div class="navbar-header">
+              <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!-- 确保无论是宽屏还是窄屏，navbar-brand都显示 -->
+              <a href="/" class="navbar-brand">博客</a>
+         </div>
+  <!-- 屏幕宽度小于768px时，div.navbar-responsive-collapse容器里的内容都会隐藏，显示icon-bar图标，当点击icon-bar图标时，再展开。屏幕大于768px时，默认显示。 -->
+         <div class="collapse navbar-collapse ">
+    	<ul class="nav navbar-nav">
+      		<li class="active"><a href="{% url 'esweb:index' %}">首页</a></li>
+            {% if request.user.is_authenticated %}
+            <li><a href="{% url 'esweb:index' %}">总览</a></li>
+            <li><a href="/admin/">管理后台</a></li>
+			<li ><a>欢迎：{{ request.user.username}}</a></li>
+            <li><a class="text text-left small" href="/users/logout/">注销</a></li>
+            {% else %}
+            <li ><a href="/users/">登录</a></li>
+            {% endif %}
+	 	</ul>
+         </div>
+</div>
+<div class="contain-fluid">
+     <div class="row-fluid">
+     	<div class="col-md-2">
+     		<ul class="nav nav-list">
+     			<li class="nav-header">
+     				<h2>功能列表</h2>
+     			</li>
+                <li class="active">
+     				<a href="/esweb/">集群状态总揽</a>
+     			</li>
+     			<li class="active">
+     				<a href="">各个节点状态</a>
+     			</li>
+     			<li>
+     				<a href="{% url 'esweb:indexs_list' %}">索引列表</a>
+     			</li>
+                <li>
+     				<a href="">查询</a>
+     			</li>
+     		</ul>
+     	</div>
+     	<div class="col-md-10">
+                 {% block content %}
+     {% endblock %}
+         </div>
+     </div>
+    <div class="row-fluid">
+    	<div class="col-md-6">
+    		<p>
+    			<em>@2017 白少华</em>
+    		</p>
+    	</div>
+    	<div class="col-md-6">
+    		 <button class="btn btn-primary" type="button">回到顶部</button>
+    	</div>
+    </div>
+</div>
+<!--这里是网页底部-->
+
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

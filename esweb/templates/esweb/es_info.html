@@ -1,0 +1,26 @@
+{% extends "esweb/base.html" %}
+{% block content %}
+
+    <h2>Elasticsearch 信息    </h2>
+     <table class="table table-striped">
+         <!--列名-->
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>主机名</th>
+              <th>ip:</th>
+
+            </tr>
+          </thead>
+         <!--任务列表-->
+          <tbody>
+            <tr>
+            <form action="" method="post">
+              <th scope="row"><a href="">{{es.id}}</a></th>
+                <td><a href="">{{es.hostname}}</a></td>
+                <td><a href="">{{es.ip}}:{{es.port}}</a></td>
+            </form>
+            </tr>
+          </tbody>
+    </table>
+{% endblock %}

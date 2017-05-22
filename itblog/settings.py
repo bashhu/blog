@@ -42,6 +42,7 @@ INSTALLED_APPS = (
     'accounts',
     'polls',
     'asset',
+    'esweb',
 )
 #AUTH_USER_MODEL = 'users.User'
 MIDDLEWARE_CLASSES = (

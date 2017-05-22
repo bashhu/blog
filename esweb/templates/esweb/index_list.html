@@ -1,0 +1,47 @@
+{% extends "esweb/base.html" %}
+{% block content %}
+
+<h2 xmlns="http://www.w3.org/1999/html">{{es_dst.ip}}:{{es_dst.port}}蓝色主分片，绿色副分片
+        <span class="small pull-right">
+            <form method="get">
+            <input class="form-control" type="search" name="search" placeholder="搜索命令" />
+            </form>
+        </span>
+    </h2>
+ <<table class="table table-striped table-bordered table-hover">
+   <thead>
+     <tr><!--列名-->
+         <th>节点</th>
+       {% for index in index_list %}
+          <th>{{index}}</th>
+       {% endfor %}
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+ {% for node,node_info in node_list.items %}
+         <!--节点列表-->
+ <tr>
+         <td>{{ node_info.transport_address }}</br>{{ node }}</td>
+ {% for indexname in index_list %}
+    <td> <!--分片列表-->
+    {% for shards in shards_list %}
+           {% ifequal shards.index indexname %}
+             {% ifequal shards.node node %}
+                {% if shards.primary %}
+                  <button type="button" href="" class="btn btn-default btn-primary"><span class="glyphicon">M{{shards.shard}}</span></button>
+                {% else %}
+                 <button type="button" href="" class="btn btn-default btn-success"><span class="glyphicon">S{{shards.shard}}</span></button>
+                {% endif %}
+            {% endifequal %}
+          {% endifequal %}
+      {% endfor %}
+    </td>
+ {% endfor %}
+ </tr>
+ {% endfor %}
+
+   </tbody>
+ </table>
+
+{% endblock %}
