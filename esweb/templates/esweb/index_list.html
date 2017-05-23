@@ -25,21 +25,13 @@
          <td>{{ node_info.transport_address }}</br>{{ node }}</td>
  {% for indexname in index_list %}
     <td> <!--分片列表-->
-    {% for shards in shards_list %}
-           {% ifequal shards.index indexname %}
-             {% ifequal shards.node node %}
-                {% if shards.primary %}
-                  <button type="button" href="" class="btn btn-default btn-primary"><span class="glyphicon">M{{shards.shard}}</span></button>
-                {% else %}
-                 <button type="button" href="" class="btn btn-default btn-success"><span class="glyphicon">S{{shards.shard}}</span></button>
-                {% endif %}
-            {% endifequal %}
-          {% endifequal %}
-      {% endfor %}
-    </td>
- {% endfor %}
- </tr>
- {% endfor %}
+    {% for shards in shards_list %}{% ifequal shards.index indexname %}{% ifequal shards.node node %}{% if shards.primary %}
+ <button type="button" href="" class="btn btn-default btn-primary"><span class="glyphicon">M{{shards.shard}}</span></button>
+{% else %}
+ <button type="button" href="" class="btn btn-default btn-success"><span class="glyphicon">S{{shards.shard}}</span></button>
+{% endif %}{% endifequal %}{% endifequal %}{% endfor %}
+</td> {% endfor %}
+ </tr> {% endfor %}
 
    </tbody>
  </table>

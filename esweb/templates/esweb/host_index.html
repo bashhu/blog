@@ -1,6 +1,5 @@
 {% extends "esweb/base.html" %}
 {% block content %}
-
     <h2>{{es_dst.ip}}:{{es_dst.port}}
         <span class="small pull-right">
             <form method="get">
@@ -10,7 +9,7 @@
     </h2>
  <table class="table table-striped">
    <thead>
-     <tr><!--列名-->
+     <tr>
        {% for index in index_list %}
           <th>{{index}}</th>
        {% endfor %}
@@ -18,9 +17,8 @@
    </thead>
    <tbody>
      <tr>
-
    {% for indexname in index_list %}
-      <td> <!--分片列表-->
+      <td>
       {% for shards in shards_list %}
            {% ifequal shards.index indexname %}
               {% if shards.primary %}
@@ -35,5 +33,4 @@
      </tr>
    </tbody>
  </table>
-
 {% endblock %}
