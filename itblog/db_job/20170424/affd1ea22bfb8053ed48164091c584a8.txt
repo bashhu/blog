@@ -1,0 +1,5 @@
+    actions = ['make_published']
+
+    def make_published(self, request, queryset):
+        queryset.update(status='p')
+    make_published.short_description = "Mark selected stories as published"
