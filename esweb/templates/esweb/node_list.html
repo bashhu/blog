@@ -34,17 +34,41 @@
 
 
     <tr>
-         <td>CPU负载</td>
+         <td>系统负载</td>
      {% for node,node_info in res.items %}
         <td>
-            <a>cpu_percent: {{ node_info.os.cpu.percent }}</a></br>
-            <a>load_average: {{ node_info.os.cpu.load_average.keys }}</a></br>
-            <a>mem_percent: {{ node_info.os.mem.used_percent }}</a></br>
+            <p>cpu_percent: {{ node_info.os.cpu.percent }}</p>
+            <p>load_average: {{ node_info.os.cpu.load_average.values }}</p>
+            <p>mem_percent: {{ node_info.os.mem.used_percent }}</p>
         </td>
      {% endfor %}
      </tr>
 
+    <tr>
+         <td>JVM</td>
+     {% for node,node_info in res.items %}
+        <td>
+            <p>heap_used_percent: {{ node_info.jvm.mem.heap_used_percent }}%</p>
+            <p>heap_max_in_bytes: {{ node_info.jvm.mem.heap_max_in_bytes|filesizeformat }}</p>
+            <p>heap_used_in_bytes: {{ node_info.jvm.mem.heap_used_in_bytes|filesizeformat }}</p>
+        </td>
+     {% endfor %}
+     </tr>
 
+       <tr>
+         <td>文件系统</td>
+     {% for node,node_info in res.items %}
+         <td>
+           <p>free_in_bytes: {{ node_info.fs.total.free_in_bytes|filesizeformat }}</p>
+           <p>total_in_bytes: {{ node_info.fs.total.total_in_bytes|filesizeformat }}</p>
+           <p>available_in_bytes: {{ node_info.fs.total.available_in_bytes|filesizeformat }}</p>
+            {% for node_fs in node_info.fs.data %}
+                 <p>{{ node_fs.mount }}-free_in_bytes: {{ node_fs.free_in_bytes|filesizeformat }}</p>
+                 <p>{{ node_fs.mount }}-total_in_bytes: {{ node_fs.total_in_bytes|filesizeformat }}</p>
+            {% endfor %}
+        </td>
+     {% endfor %}
+     </tr>
    </tbody>
  </table>
 

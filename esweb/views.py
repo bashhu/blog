@@ -44,11 +44,21 @@ def es_info(request, id):
     info =  json.dumps(info, sort_keys=True, indent=2)
     return render(request, 'esweb/es_info.html', {'info': info, 'es': es_dst})
 
+def es_search(request, index, arg):
+    es_dst = ES.objects.get(id=id)
+    es = Elasticsearch(('%s:%s' % (es_dst.ip, es_dst.port)))
+    res = es.search(index,arg)
+    return render(request, 'esweb/es_search.html', {'res': res})
+
 def index_all_info(request):
+    es_dst = ES.objects.get(id=1)
+    es = Elasticsearch(('%s:%s' % (es_dst.ip, es_dst.port)))
     es.indices.stats()
     es.indices.stats('docker-2017_05')['indices']['docker-2017_05']['total']['docs']
     pass
 def index_info(request):
+    es_dst = ES.objects.get(id=1)
+    es = Elasticsearch(('%s:%s' % (es_dst.ip, es_dst.port)))
     es.indices.stats()
     es.indices.stats('docker-2017_05')['indices']['docker-2017_05']['total']['docs']
     pass

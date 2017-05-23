@@ -108,10 +108,10 @@
      				<h2>功能列表</h2>
      			</li>
                 <li class="active">
-     				<a href="/esweb/">集群状态总揽</a>
+     				<a href="{% url 'esweb:index' %}">集群状态总揽</a>
      			</li>
      			<li class="active">
-     				<a href="">各个节点状态</a>
+     				<a href="{% url 'esweb:node_list' %}">各个节点状态</a>
      			</li>
      			<li>
      				<a href="{% url 'esweb:indexs_list' %}">索引列表</a>

@@ -22,5 +22,7 @@ __es.nodes.stats()__
 
 这个函数是获取elasticsearch的node信息，其中包含node的系统信息，jvm，磁盘
 
-__es.nodes.stats()['nodes']['Mp0wYL6tReSeXdTPhihIOA']['os']__
+__es.nodes.stats()__
 node的系统信息
+官方文档
+https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-nodes-stats.html#fs-info

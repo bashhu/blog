@@ -39,16 +39,38 @@
    </thead>
    <tbody>
  <!--分片列表-->
-          {% for key, value in cluster.items %}
-         <tr>
-           <td>
-                  <a>{{ key }}</a>
-           </td>
-           <td>
-                  <a>{{ value }}</a>
-           </td>
+          <tr>
+           <td><B>集群名称</B></td>
+           <td><p>{{ cluster.cluster_name }}</p></td>
          </tr>
-         {% endfor %}
+         <tr>
+             <td><B>集群状态</br>(green=健康| yellow=部分分片异常| red=不健康)</B></td>
+           <td><p>{{ cluster.status }}</p></td>
+         </tr>
+         <tr>
+           <td><B>集群节点数</B></td>
+           <td><p>{{ cluster.number_of_nodes }}</p></td>
+         </tr>
+         <tr>
+            <td><B>分片可用率</B></td>
+            <td><p>{{ cluster.active_shards_percent_as_number }}</p></td>
+         </tr>
+          <tr>
+            <td><B>集群分片数(unassigned shards/active shards)</B></td>
+            <td><p>{{ cluster.unassigned_shards }}/{{ cluster.active_shards }}</p></td>
+          </tr>
+          <tr>
+            <td><B>初始化中分片</B></td>
+            <td><p>{{ cluster.initializing_shards }}</p></td>
+         </tr>
+          <tr>
+            <td><B>任务队列最大等待(单位：毫秒)</B></td>
+            <td><p>{{ cluster.task_max_waiting_in_queue_millis }}</p></td>
+          </tr>
+          <tr>
+            <td><B>等待任务数</B></td>
+            <td><p>{{ cluster.number_of_pending_tasks }}</p></td>
+          </tr>
    </tbody>
  </table>
 {% endblock %}
