@@ -215,3 +215,1971 @@ INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
 INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"w"}
 INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
 INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"grains.item","arg":"hostname"}
+INFO:elasticsearch:GET http://192.168.199.224:9200/ [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/ [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/ [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/ [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/ [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.001s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.001s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.001s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.001s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.001s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:10.001s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x00000000049A6278>, u'Connection to 192.168.199.224 timed out. (connect timeout=10)')
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:10.000s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x00000000049A6B00>, u'Connection to 192.168.199.224 timed out. (connect timeout=10)')
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:10.000s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x00000000049A6588>, u'Connection to 192.168.199.224 timed out. (connect timeout=10)')
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:10.000s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x00000000049A6278>, u'Connection to 192.168.199.224 timed out. (connect timeout=10)')
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:10.002s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x00000000049B9BA8>, u'Connection to 192.168.199.224 timed out. (connect timeout=10)')
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:10.000s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x00000000049B9898>, u'Connection to 192.168.199.224 timed out. (connect timeout=10)')
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:10.000s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x00000000049B9710>, u'Connection to 192.168.199.224 timed out. (connect timeout=10)')
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:10.002s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x00000000049B9BA8>, u'Connection to 192.168.199.224 timed out. (connect timeout=10)')
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:N/A request:10.004s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000004295748>, u'Connection to 192.168.199.224 timed out. (connect timeout=10)')
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:N/A request:10.001s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000004295780>, u'Connection to 192.168.199.224 timed out. (connect timeout=10)')
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:N/A request:10.000s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000004295710>, u'Connection to 192.168.199.224 timed out. (connect timeout=10)')
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:N/A request:10.000s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 146, in _new_conn
+    (self.host, self.timeout))
+ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x0000000004295748>, u'Connection to 192.168.199.224 timed out. (connect timeout=10)')
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+WARNING:py.warnings:C:\Python27\lib\site-packages\django\db\models\sql\query.py:1150: RemovedInDjango19Warning: Passing callable arguments to queryset is deprecated.
+  value, lookups, used_joins = self.prepare_lookup_value(value, lookups, can_reuse, allow_joins)
+
+WARNING:py.warnings:C:\Python27\lib\site-packages\django\db\models\sql\query.py:1150: RemovedInDjango19Warning: Passing callable arguments to queryset is deprecated.
+  value, lookups, used_joins = self.prepare_lookup_value(value, lookups, can_reuse, allow_joins)
+
+WARNING:py.warnings:C:\Python27\lib\site-packages\django\db\models\sql\query.py:1150: RemovedInDjango19Warning: Passing callable arguments to queryset is deprecated.
+  value, lookups, used_joins = self.prepare_lookup_value(value, lookups, can_reuse, allow_joins)
+
+WARNING:py.warnings:C:\Python27\lib\site-packages\django\db\models\sql\query.py:1150: RemovedInDjango19Warning: Passing callable arguments to queryset is deprecated.
+  value, lookups, used_joins = self.prepare_lookup_value(value, lookups, can_reuse, allow_joins)
+
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.241s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.006s]
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:N/A request:1.003s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000513AE48>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:N/A request:1.003s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000513AF98>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:N/A request:1.005s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000513A5C0>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:N/A request:1.003s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000513A470>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:N/A request:1.003s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000003847908>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:N/A request:1.002s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x00000000038473C8>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:N/A request:11.003s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 388, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 308, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+ReadTimeoutError: HTTPConnectionPool(host=u'192.168.199.224', port=9200): Read timed out. (read timeout=10)
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:N/A request:10.002s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 388, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 308, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+ReadTimeoutError: HTTPConnectionPool(host=u'192.168.199.224', port=9200): Read timed out. (read timeout=10)
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.081s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.012s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.012s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.012s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.136s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.023s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:7.601s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:3.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:1.564s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.085s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.015s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_cluster/health [status:200 request:0.019s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.027s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.027s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.023s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.015s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.012s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.012s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.029s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.025s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.013s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.015s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.001s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.012s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.024s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.012s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.017s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.023s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.022s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.013s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_nodes/stats [status:200 request:0.053s]
+WARNING:elasticsearch:GET http://192.168.199.222:9200/_alias [status:N/A request:10.000s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 388, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 308, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+ReadTimeoutError: HTTPConnectionPool(host=u'192.168.199.222', port=9200): Read timed out. (read timeout=10)
+WARNING:elasticsearch:GET http://192.168.199.222:9200/_alias [status:N/A request:10.002s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 388, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 308, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+ReadTimeoutError: HTTPConnectionPool(host=u'192.168.199.222', port=9200): Read timed out. (read timeout=10)
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:1.003s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000004E08358>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:1.001s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000004E086A0>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:1.003s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000004E08748>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:1.003s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000004E08358>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:1.003s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000004FBB860>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:1.003s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000004FBB198>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:1.002s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000004FBBEB8>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_alias [status:N/A request:1.002s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000004FBB860>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:N/A request:1.003s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000004FBBEF0>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:N/A request:1.003s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000004FBBD30>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:N/A request:1.002s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000004FBBF60>: Failed to establish a new connection: [Errno 10061] 
+WARNING:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:N/A request:1.002s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 356, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Python27\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000000004FBBEF0>: Failed to establish a new connection: [Errno 10061] 
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.069s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.140s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.051s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_nodes/stats [status:200 request:0.042s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.014s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_nodes/stats [status:200 request:0.023s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_nodes/stats [status:200 request:0.027s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_nodes/stats [status:200 request:0.017s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_nodes/stats [status:200 request:0.020s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.019s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.001s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.020s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.012s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.012s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.013s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.020s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.308s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.024s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.012s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.001s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.019s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.013s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.021s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.024s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.013s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.001s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.013s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.001s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.020s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.028s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.001s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.020s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.013s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.016s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.015s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_alias [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_search_shards [status:200 request:0.001s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.014s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.028s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.024s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.019s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.022s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.012s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.017s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.021s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.017s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.021s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.019s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.022s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.016s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.016s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.023s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.021s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.013s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.017s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.022s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.017s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.021s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.017s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.031s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.022s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.022s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.016s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.021s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.023s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.019s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.038s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.019s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.019s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.013s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.017s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.020s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.022s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.019s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.017s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.022s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.017s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.017s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.019s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.028s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.019s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.99.91:9200/_cluster/health [status:200 request:0.259s]
+INFO:elasticsearch:GET http://192.168.99.91:9200/_cluster/health [status:200 request:0.242s]
+INFO:elasticsearch:GET http://192.168.99.91:9200/_nodes/stats [status:200 request:10.336s]
+WARNING:elasticsearch:GET http://192.168.99.91:9200/_nodes/stats [status:N/A request:10.001s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 388, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 308, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+ReadTimeoutError: HTTPConnectionPool(host=u'192.168.99.91', port=9200): Read timed out. (read timeout=10)
+INFO:elasticsearch:GET http://192.168.99.91:9200/_cluster/state [status:200 request:57.704s]
+INFO:elasticsearch:GET http://192.168.99.91:9200/_nodes/stats [status:200 request:10.096s]
+WARNING:elasticsearch:GET http://192.168.99.91:9200/_nodes/stats [status:N/A request:10.119s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 388, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 308, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+ReadTimeoutError: HTTPConnectionPool(host=u'192.168.99.91', port=9200): Read timed out. (read timeout=10)
+INFO:elasticsearch:GET http://192.168.99.91:9200/_cluster/state [status:200 request:51.293s]
+INFO:elasticsearch:GET http://192.168.99.91:9200/_nodes/stats [status:200 request:9.398s]
+WARNING:elasticsearch:GET http://192.168.99.91:9200/_nodes/stats [status:N/A request:10.003s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 388, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 308, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+ReadTimeoutError: HTTPConnectionPool(host=u'192.168.99.91', port=9200): Read timed out. (read timeout=10)
+INFO:elasticsearch:GET http://192.168.199.222:9200/_cluster/health [status:200 request:0.012s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_nodes/stats [status:200 request:0.015s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_cluster/state [status:200 request:0.035s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_cluster/state [status:200 request:0.020s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_cluster/state [status:200 request:0.023s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_nodes/stats [status:200 request:0.019s]
+INFO:elasticsearch:GET http://192.168.199.222:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.99.94:9200/_cluster/health [status:200 request:0.196s]
+WARNING:elasticsearch:GET http://192.168.99.94:9200/_nodes/stats [status:N/A request:10.047s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 388, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 308, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+ReadTimeoutError: HTTPConnectionPool(host=u'192.168.99.94', port=9200): Read timed out. (read timeout=10)
+INFO:elasticsearch:GET http://192.168.99.94:9200/_nodes/stats [status:200 request:10.456s]
+INFO:elasticsearch:GET http://192.168.99.94:9200/_nodes/stats [status:200 request:9.739s]
+INFO:elasticsearch:GET http://192.168.99.94:9200/_cluster/state [status:200 request:44.202s]
+INFO:elasticsearch:GET http://192.168.99.94:9200/_cluster/state [status:200 request:46.996s]
+INFO:elasticsearch:GET http://192.168.99.94:9200/_nodes/stats [status:200 request:9.823s]
+WARNING:elasticsearch:GET http://192.168.99.94:9200/_nodes/stats [status:N/A request:10.002s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 388, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 308, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+ReadTimeoutError: HTTPConnectionPool(host=u'192.168.99.94', port=9200): Read timed out. (read timeout=10)
+INFO:elasticsearch:GET http://192.168.99.94:9200/_nodes/stats [status:200 request:9.549s]
+WARNING:elasticsearch:GET http://192.168.99.94:9200/_nodes/stats [status:N/A request:10.001s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 388, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 308, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+ReadTimeoutError: HTTPConnectionPool(host=u'192.168.99.94', port=9200): Read timed out. (read timeout=10)
+INFO:elasticsearch:GET http://192.168.99.94:9200/_cluster/health [status:200 request:0.186s]
+INFO:elasticsearch:GET http://192.168.99.94:9200/_cluster/state [status:200 request:53.958s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.023s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.012s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.024s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.020s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.023s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.023s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.020s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.99.91:9200/_cluster/health [status:200 request:0.336s]
+INFO:elasticsearch:GET http://192.168.99.91:9200/_cluster/state [status:200 request:46.304s]
+INFO:elasticsearch:GET http://192.168.99.91:9200/_cluster/state [status:200 request:58.070s]
+WARNING:elasticsearch:GET http://192.168.99.91:9200/_nodes/stats [status:N/A request:10.088s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 388, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 308, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+ReadTimeoutError: HTTPConnectionPool(host=u'192.168.99.91', port=9200): Read timed out. (read timeout=10)
+INFO:elasticsearch:GET http://192.168.99.91:9200/_nodes/stats [status:200 request:9.512s]
+WARNING:elasticsearch:GET http://192.168.99.91:9200/_nodes/stats [status:N/A request:10.044s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 388, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 308, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+ReadTimeoutError: HTTPConnectionPool(host=u'192.168.99.91', port=9200): Read timed out. (read timeout=10)
+WARNING:elasticsearch:GET http://192.168.99.91:9200/_nodes/stats [status:N/A request:10.052s]
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 114, in perform_request
+    response = self.pool.urlopen(method, url, body, retries=False, headers=self.headers, **kw)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 649, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Python27\lib\site-packages\urllib3\util\retry.py", line 333, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 388, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Python27\lib\site-packages\urllib3\connectionpool.py", line 308, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+ReadTimeoutError: HTTPConnectionPool(host=u'192.168.99.91', port=9200): Read timed out. (read timeout=10)
+INFO:elasticsearch:GET http://192.168.99.91:9200/_cluster/state [status:200 request:46.074s]
+INFO:elasticsearch:GET http://192.168.99.91:9200/_nodes/stats [status:200 request:9.803s]
+INFO:elasticsearch:GET http://192.168.99.91:9200/_nodes/stats [status:200 request:9.045s]
+INFO:elasticsearch:GET http://192.168.99.91:9200/_cluster/health [status:200 request:0.956s]
+INFO:elasticsearch:GET http://192.168.99.91:9200/_cluster/state [status:200 request:61.115s]
+INFO:elasticsearch:GET http://192.168.99.91:9200/_cluster/state [status:200 request:74.634s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.005s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.020s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.012s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.020s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.018s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.012s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.002s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.011s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.009s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.021s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ps "}
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.021s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.022s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.007s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.004s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.010s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 request:0.006s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
+INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
