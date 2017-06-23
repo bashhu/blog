@@ -2183,3 +2183,7 @@ INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/state [status:200 re
 INFO:elasticsearch:GET http://192.168.199.224:9200/_cluster/health [status:200 request:0.003s]
 INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.008s]
 INFO:elasticsearch:GET http://192.168.199.224:9200/_nodes/stats [status:200 request:0.006s]
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"test"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"df"}
