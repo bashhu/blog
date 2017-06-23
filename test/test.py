@@ -31,29 +31,12 @@ class Config(object):
             print "not exist %s" % project
             sys.exit(1)
 
-class Student(object):
-    def __init__(self, name, score):
-        self.name = name
-        self.__score = score
-
-    def level(self):
-        if self.__score >90:
-            print "%s is A" % (self.name)
-        elif self.__score >80 :
-            print "%s is B" % (self.name)
-        elif self.__score >60 :
-            print "%s is C" % (self.name)
-        else:
-            print "%s is D" % (self.name)
-
-
-class Worker(Student):
-    def atime(self):
-        pass
-
+#类的继承
 class A():
     def foo1(self):
         print "A"
+    def __unicode__(self):
+        return "A"
 class B(A):
     def foo2(self):
         pass
@@ -69,12 +52,12 @@ def log(text):
             print '[INFO]:',args
             return func(*args)
     return info
-@log
+
 def now():
     print '2013-12-25'
 
 
-@log.info
+
 def test1(*args, **kw):
     for i in args:
         print 'value:',i
@@ -82,4 +65,35 @@ def test1(*args, **kw):
     for key in kw:
         print "%s:%s" % (key, kw[key])
 
-test1(1,2,3,bai=1,shao=2,hua=3)
+
+##类的初始化参数
+class Student(object):
+    def __init__(self, name, score):
+        self.name = name
+        self.__score = int(score)
+
+    def __unicode__(self):
+        print "A"
+
+    def level(self):
+        if self.__score >90:
+            print "%s is A" % (self.name)
+        elif self.__score >80 :
+            print "%s is B" % (self.name)
+        elif self.__score >60 :
+            return "%s is C" % (self.name)
+        else:
+            print "%s is D" % (self.name)
+
+
+##迭代器
+def testA():
+    f=open('./test/test.conf')
+    for i in f.readlines():
+        yield i
+    f.close()
+
+s= testA()
+print s.next()
+print s.next()
+
