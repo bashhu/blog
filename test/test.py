@@ -4,96 +4,94 @@ __created__ =  2017/6/9 17:33
 __author__ = 'baishaohua'
 # @Site    : https://github.com/bashhu
 """
-import ConfigParser,sys,os,time
 
-class Config(object):
-    def __init__(self, file_path):
-        '''初始化类，并加载配置文件'''
-        conf_file = file_path
-        self.config = ConfigParser.ConfigParser()
-        conf = self.config.read(conf_file)
-
-    def load_config(self, project):
-        if self.config.has_section(project):
-            node = self.config.get(project, "node").split(',')
-            port = self.config.get(project, "port")
-            home = self.config.get(project, "home")
-            print home
-
-            print """
-                node: %s
-                port: %s
-                home: %s
-            """ % (node, port, home)
-
-            return node, port, home
-        else:
-            print "not exist %s" % project
-            sys.exit(1)
-
-#类的继承
-class A():
-    def foo1(self):
-        print "A"
-    def __unicode__(self):
-        return "A"
-class B(A):
-    def foo2(self):
-        pass
-class C(A):
-    def foo1(self):
-        print "C"
-class D(B, C):
-    pass
-
-def log(text):
-    def info(func):
-        def text(*args):
-            print '[INFO]:',args
-            return func(*args)
-    return info
-
-def now():
-    print '2013-12-25'
+import os, sys
+import hashlib
+import hmac
+import base64
+import urllib
+import time
+import uuid
+import requests
 
 
-
-def test1(*args, **kw):
-    for i in args:
-        print 'value:',i
-
-    for key in kw:
-        print "%s:%s" % (key, kw[key])
+def get_iso8601_time():
+    TIME_ZONE = "GMT"
+    FORMAT_ISO8601 = "%Y-%m-%dT%H:%M:%SZ"
+    return time.strftime(FORMAT_ISO8601, time.gmtime())
 
 
-##类的初始化参数
-class Student(object):
-    def __init__(self, name, score):
-        self.name = name
-        self.__score = int(score)
-
-    def __unicode__(self):
-        print "A"
-
-    def level(self):
-        if self.__score >90:
-            print "%s is A" % (self.name)
-        elif self.__score >80 :
-            print "%s is B" % (self.name)
-        elif self.__score >60 :
-            return "%s is C" % (self.name)
-        else:
-            print "%s is D" % (self.name)
+def get_uuid():
+    return str(uuid.uuid4())
 
 
-##迭代器
-def testA():
-    f=open('./test/test.conf')
-    for i in f.readlines():
-        yield i
-    f.close()
+def get_parameters(user_param, Action, AccessKeyId):
+    '''
+    user_param: {"RegionId":"cn-beijing", "LoadBalancerName":"test-node1", "AddressType":"intranet", "VSwitchId":"vsw-2zevjlczuvp2mkhhch12x"}
+    Action操作例如:CreateLoadBalancer
+    AccessKeyId
+    '''
+    parameters = {}
+    parameters['HTTPMethod'] = 'GET'
+    parameters['AccessKeyId'] = AccessKeyId
+    parameters['Format'] = 'json'
+    parameters['Version'] = '2014-05-15'
+    parameters['SignatureMethod'] = 'HMAC-SHA1'
+    parameters['Timestamp'] = get_iso8601_time()
+    parameters['SignatureVersion'] = '1.0'
+    parameters['SignatureNonce'] = get_uuid()
+    parameters['Action'] = Action
+    for (k, v) in sorted(user_param.items()):
+        parameters[k] = v
+    return parameters
 
-s= testA()
-print s.next()
-print s.next()
+
+def get_param(parameters):
+    '''把公共参数拼接成字符串'''
+    param_str = ''
+    for (k, v) in sorted(parameters.items()):
+        param_str += "&" + urllib.quote(k, safe='') + "=" + urllib.quote(v, safe='')
+    param_str = param_str[1:]
+    return param_str
+
+
+def get_StringToSign(parameters, param_str):
+    '''拼接生成签名的字符串'''
+    StringToSign = parameters['HTTPMethod'] + "&%2F&" + urllib.quote(param_str, safe='')
+    return StringToSign
+
+
+def get_signature(StringToSign, AccessKeySecret):
+    '''构建签名'''
+    h = hmac.new(AccessKeySecret, StringToSign, hashlib.sha1)
+    signature = base64.encodestring(h.digest()).strip()
+    return signature
+
+
+def build_request(server_url, param_str, signature, AccessKeySecret):
+    '''拼接url并进行请求'''
+    Signature = "Signature=" + urllib.quote(signature)
+    param = param_str + "&" + Signature
+    request_url = server_url + param
+    s = requests.get(request_url)
+    print s.content
+
+def get_regions(Action,user_param):
+    '''对请求进行模块
+    Action = 'DescribeRegions'
+    user_param = {'LoadBalancerId': 'lb-2zekxu2elibyexxoo9hlw'}
+    '''
+    server_url = 'http://slb.aliyuncs.com?'
+    AccessKeySecret = "xxxxxxxxxxxxxxxxx"
+    AccessKeyId = "xxxxxxxxxx"
+    parameters = get_parameters(user_param, Action, AccessKeyId)
+    param_str = get_param(parameters)
+    StringToSign = get_StringToSign(parameters, param_str)
+    signature = get_signature(StringToSign, AccessKeySecret + '&')
+    build_request(server_url, param_str, signature, AccessKeySecret)
+
+
+Action = 'CreateLoadBalancer'
+user_param = {"RegionId":"cn-beijing", "LoadBalancerName":"test-node1", "AddressType":"intranet", "VSwitchId":"vsw-2zevjlczuvp2mkhhch12x"}
+get_regions(Action,user_param)
 
