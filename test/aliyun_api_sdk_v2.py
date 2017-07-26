@@ -105,7 +105,7 @@ get_regions(server_url, Action, user_param, AccessKeySecret, AccessKeyId, Versio
 
 #create user
 Action = 'CreateUser'
-user_param = {"UserName":"baishaohua", "DisplayName":"白少华", "Email":"shaohua.bai@dianjoy.com", "Comments":"测试用户"}
+user_param = {"UserName":"baishaohua", "DisplayName":"白少华", "Email":"nginxs@126.com", "Comments":"测试用户"}
 server_url = 'ram.aliyuncs.com'
 AccessKeySecret='xxx'
 AccessKeyId='xxx'
