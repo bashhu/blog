@@ -13,3 +13,6 @@
 [阿里云SLB SDK 调用](https://yq.aliyun.com/articles/149588?spm=5176.8091938.0.0.Krxie8)
 
 [阿里云SLB cli调用](https://yq.aliyun.com/articles/129756?spm=5176.8091938.0.0.Krxie8)
+
+###自建素材库
+https://www.processon.com/view/588eb746e4b098bf4d1fbf03
