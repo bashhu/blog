@@ -8,7 +8,7 @@ import time
 ssl._create_default_https_context = ssl._create_unverified_context
 logging.basicConfig(filename='./salt-api.log', level=logging.INFO)
 
-SALT_API_HOST = "https://192.168.199.211:8000"
+SALT_API_HOST = "http://localhost:8000/"
 SALT_API_USER = "saltapi"
 SALT_API_PASSWORD = "saltapi"
 

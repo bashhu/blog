@@ -2187,3 +2187,11 @@ INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
 INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"test"}
 INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
 INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"df"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"df"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"test.nginxs.net","fun":"cmd.run","arg":"df"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"ntest2.dianjoy.com","fun":"cmd.run","arg":"ss"}
+INFO:root:{"username":"saltapi","password":"saltapi","eauth":"pam"}
+INFO:root:{ "client":"local","tgt":"test.nginxs.net","fun":"cmd.run","arg":"test1"}
