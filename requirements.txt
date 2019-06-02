@@ -1,3 +1,3 @@
-django==1.8.1
+django==1.11.20
 Markdown
 django-users2
