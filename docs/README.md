@@ -7,8 +7,8 @@ jenkins, docker, gitlab, saltstack/puppt/ansible， zabbix, 自建ops平台
 
 ###CD
 
-redmine, jira, confluence ,gitlab,  Bugzilla, testlink, ELK, Pwiki, dmp
+redmine, jira, confluence ,gitlab,  Bugzilla, testlink, ELK, Pwiki, dmpCancel changes
 
 ###CMDB
 
-自建CMDB使用saltstack和ops平台调用和录入CNDB
+自建CMDB使用saltstack和ops平台调用和录入CMDB
